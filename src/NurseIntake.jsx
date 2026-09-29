@@ -489,7 +489,7 @@ setPatientToken(finalToken);
   <div className={`${cardClass} flex flex-col items-center`}>
     <p className="text-slate-600 text-sm mb-3">📱 Scan to view live queue status</p>
     <div className="bg-white p-3 rounded-lg border border-slate-200">
-      <QRCodeSVG value={`http://10.85.21.31:5173/patient/${patientToken}`} size={180} />
+      <QRCodeSVG value={`https://arogya-triage-eyyp.vercel.app/patient/${patientToken}`} size={180} />
     </div>
     <p className="text-slate-500 text-xs mt-3 font-mono">/patient/{patientToken}</p>
     <p className="text-slate-400 text-[10px] mt-1 mb-3">Patient scans → opens live queue page</p>
