@@ -495,7 +495,7 @@ setPatientToken(finalToken);
     <p className="text-slate-400 text-[10px] mt-1 mb-3">Patient scans → opens live queue page</p>
   </div>
 )}        {/* STATUTORY NOTICE */}
-        {result && (
+        {result && (sss
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 flex gap-3">
             <span className="text-amber-600 text-xl">⚠️</span>
             <div>
